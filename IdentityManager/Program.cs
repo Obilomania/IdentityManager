@@ -1,9 +1,6 @@
 using IdentityManager.Data;
-using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using IdentityRole = Microsoft.AspNet.Identity.EntityFramework.IdentityRole;
-using IdentityUser = Microsoft.AspNet.Identity.EntityFramework.IdentityUser;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
